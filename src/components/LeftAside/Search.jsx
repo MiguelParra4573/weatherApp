@@ -57,11 +57,11 @@ const Search = ({ setToggle }) => {
           />
         </div>
         {/* <button
-            className="col-span-2 bg-blue-600 text-white p-2 focus:outline-none"
-            onClick={handleSelect}
-          >
-            Search
-          </button> */}
+          className="col-span-2 bg-blue-600 text-white p-2 focus:outline-none"
+          onClick={handleSelect}
+        >
+          Search
+        </button> */}
       </div>
       {suggestion.length > 0 && (
         <ul className="w-full bg-white  shadow-md">

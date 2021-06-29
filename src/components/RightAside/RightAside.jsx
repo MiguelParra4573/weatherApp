@@ -70,6 +70,18 @@ const RightAside = () => {
             />
           </div>
         </div>
+        <div className="text-gray-400 text-xs text-center">
+          Created by{" "}
+          <a
+            href="https://devchallenges.io/portfolio/sachind3"
+            target="_blank"
+            rel="noreferrer"
+            className="text-gray-200 underline"
+          >
+            sachind3
+          </a>{" "}
+          - devChallenges.io
+        </div>
       </div>
     )
   );
